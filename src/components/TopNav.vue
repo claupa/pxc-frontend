@@ -8,7 +8,7 @@ interface MenuItem {
 }
 
 export default defineComponent({
-    name: 'Menu',
+    name: 'TopNavBar',
     data() {
         return {
             menuItems: [

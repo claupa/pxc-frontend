@@ -1,0 +1,285 @@
+body{
+    font-size:100%;      
+}
+body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5;
+}
+
+h1 {
+  font-size: 2em;
+  /* 2x body copy size = 32px */
+  line-height: 1.25;
+  /* 45px / 36px */
+}
+
+@media (min-width: 43.75em) {
+  h1 {
+    font-size: 2.5em;
+    /* 2.5x body copy size = 40px */
+    line-height: 1.125;
+  }
+}
+
+@media (min-width: 56.25em) {
+  h1 {
+    font-size: 3em;
+    /* 3x body copy size = 48px */
+    line-height: 1.05;
+    /* keep to a multiple of the 20px line height and something more appropriate for display headings */
+  }
+}
+
+h2 {
+  font-size: 1.625em;
+  /* 1.625x body copy size = 26px */
+  line-height: 1.15384615;
+  /* 30px / 26px */
+}
+
+@media (min-width: 43.75em) {
+  h2 {
+    font-size: 2em;
+    /* 2x body copy size = 32px */
+    line-height: 1.25;
+  }
+}
+
+@media (min-width: 56.25em) {
+  h2 {
+    font-size: 2.85em;
+    /* 2.25x body copy size = 36px */
+    line-height: 1.25;
+  }
+}
+
+h3 {
+  font-size: 1.375em;
+  /* 1.375x body copy size = 22px */
+  line-height: 1.13636364;
+  /* 25px / 22px */
+}
+
+@media (min-width: 43.75em) {
+  h3 {
+    font-size: 1.5em;
+    /* 1.5x body copy size = 24px */
+    line-height: 1.25;
+  }
+}
+
+@media (min-width: 56.25em) {
+  h3 {
+    font-size: 1.75em;
+    /* 1.75x body copy size = 28px */
+    line-height: 1.25;
+  }
+}
+
+h4 {
+  font-size: 1.125em;
+  /* 1.125x body copy size = 18px */
+  line-height: 1.11111111;
+}
+
+@media (min-width: 43.75em) {
+  h4 {
+    line-height: 1.22222222;
+    /* (22px / 18px */
+  }
+}
+
+blockquote {
+  font-size: 1.25em;
+  /* 20px / 16px */
+  line-height: 1.25;
+  /* 25px / 20px */
+}
+
+@media (min-width: 43.75em) {
+  blockquote {
+    font-size: 1.5em;
+    /* 24px / 16px = */
+    line-height: 1.45833333;
+    /* 35px / 24px */
+  }
+}
+
+#space{
+    display: none;
+}
+
+
+section#head[real] {
+        padding-top:0;
+        #menu{
+            margin-top:10px;
+            .i-menu{
+                padding: 0 7px;
+            }
+        }
+        .navbar-brand{ 
+            padding:0;
+            img.decrease{
+                height:inherit;
+                width: inherit;
+                // width: auto;
+            }
+        }
+        #edit-website-btn{
+            margin:10px 20px;
+            height:37px;
+            font-size: 1em;
+        }
+        @media (max-width:1024px) {
+            padding: 15px !important;
+        }
+}
+section#banner{
+    #banner-card{
+        h2{
+            display: inline;
+            margin-right: 10px;
+        }
+        p{
+            font-size: 17.5px;
+        }
+        .btn{
+            border: 1px solid black;
+        }
+        .btn:hover{
+            border: 1px solid #EF5353;
+            color: white;
+        }
+        @media (max-width: 786px ) {
+            h1{
+                margin-bottom: 10px;
+            }
+        }
+        @media (max-width: 786px ) {
+            a{font-size: 100%;}
+        }
+    }   
+}
+section#info, section#services, section#meeting{
+    padding: 50px 120px;
+
+    p{
+        font-size: 1.65em !important;
+        word-wrap:break-word; 
+        max-width:30ch;
+    }
+
+}
+section#services{
+    .service-card{
+        float:none !important;
+        // padding: 5px;
+        // background: transparent;
+        .service-card-content{
+            padding: 25px;
+            background: white;
+            h2 {
+            display: inline-block;
+            padding-bottom: 12px;
+            font-size: 1.3em;
+            letter-spacing: 2px;
+            font-family: 'montserrat-bold';
+            border-bottom: 4px solid black;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        p {
+            color: rgba(0, 0, 0, 0.8);
+            font-size: 1.3em;
+            margin-bottom: 0;
+        }
+        }
+    }
+
+    .service-card p{ 
+        max-width:100ch;
+    }
+     @media (max-width: 786px ) {
+            .service-card p {
+                font-size: 100%;
+                }
+            .service-card > h2:first-child{
+                margin-bottom: 10px;
+            }
+            .service-card p{
+                white-space: normal;
+            }
+        }
+}
+section#meeting p{
+    max-width: 70ch;
+}
+#fh5co-offcanvass{
+    a, button, p{
+    font-size: 10.5px;}
+
+}
+#send-msg-content{
+    margin-bottom:0;
+}
+
+
+section#foot{
+    padding: 50px 120px;
+}
+
+#fh5co-main-edit{
+    section#services p{
+        font-size: 100% !important;
+    }
+}
+
+#icons-pc a{
+    font-size: 2em;
+}
+@media (min-width: 1366px){
+    section#info, section#services, section#meeting, section#portfolio, section#clients, section#contact, section#foot{
+        padding: 50px 250px !important;
+        // margin: 0 auto;
+    }
+    section#foot{
+        padding: 25px 250px !important;
+    }
+
+}
+
+@media (max-width: 786px) {
+    section#info{
+        padding: 20px 50px;
+    }
+    section#info, section#services, section#meeting, section#portfolio, section#clients, section#contact, section#foot{
+        padding: 20px 50px !important;
+        // margin: 0 auto;
+    }
+    section#meeting{
+        #about-text-left,#about-image-left{
+            margin-bottom: 35px;
+        }
+        h1{
+            margin-bottom: 10px;
+        }
+        
+    }
+    section#clients{
+        p{
+            margin-top:0;
+        }
+    }
+    section#contact{
+        #main_form .row{
+            margin-top:0 !important;
+        }
+    }
+}
+
+@media (max-width:375px){
+    section#meeting #back-border{
+            transform: translateY(-10px);
+            left:20px !important;
+        }
+}
